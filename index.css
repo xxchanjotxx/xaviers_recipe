@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #EBF2FD;
+    font-family: "Merriweather", sans-serif;
+}
+.navbar{
+    background-color: rgba(224, 30, 91, 0.851);
+    padding: 20px;
+    border-radius: 2px 2px 8px 8px;
+}
+
+.navbar__item{
+    font-size: 2.5em;
+    list-style: none;  
+}
+.list{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container{
+    width: 100%;
+    padding: 30px 50px;
+}
+
+#dish{
+    font-size: 4em;
+    padding: 20px;
+    padding-left: 0px;
+}
+
+.image__dish{
+    margin: 40px;
+    margin-left: 0px;
+}
+
+.dish__intro{
+    font-size: 23px;
+    padding-top: 10px;
+}
+
+.heading{
+    font-size: 2.5em;
+    padding: 30px;
+    padding-left: 0px;
+}
+
+.ingredients__list{
+    padding: 20px;
+    font-size: 1.3em;
+    list-style:circle ;
+}
+
+.procedure__list{
+    padding: 20px;
+    font-size: 1.3em;
+    list-style:square;
+}
+
+.step{
+    font-size: 1.3em;
+}
+.steps{
+    padding-bottom: 1px;
+}
+u{
+    text-decoration-color: red  ;
+}
+
+table{
+    width: 60%;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+th,td{
+    border: 2px solid black;
+    text-align: center;
+    padding: 20px;
+}
+
+th{
+    font-weight: bolder;
+    font-size: 1.25em;
+    background-color: rgba(250, 41, 41, 0.851);
+}
+
+
+.footer__items{
+    display: flex;
+    padding: 50px 0px 20px 0px;
+    margin-top: 50px;
+    background-color: red;
+    
+}
+
+.footer__list{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 1.5em;
+}
+
+.copyright{
+    text-align:center;
+    padding: 10px;
+    
+}
